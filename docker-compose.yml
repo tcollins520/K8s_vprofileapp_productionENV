@@ -28,7 +28,7 @@ services:
   vproapp:
     build: 
       context: ./Docker-files/app
-    image: vprocontainers/vprofileapp
+    image: vprocontainers/vprofileapp:v2
     container_name: vproapp
     ports:
       - "8080:8080"
