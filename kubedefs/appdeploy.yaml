@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vproapp
-        image: tcollins520/vprofileapp:v2
+        image: tcollins520/vprofileapp:v3
         imagePullPolicy: Always
         ports:
         - name: vproapp-port
